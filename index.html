@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman Game</title>
+    <script src="./JS files/word_list.js" defer></script>
+    <script src="./JS files/app.js" defer></script>
+    
+  </head>
+  <body>
+
+    <!-- game result -->
+    <div class="game-modal">
+<div class="content">
+  <img src="./assets/lost.gif" alt="victory">
+  <h3>Game Over</h3>
+  <p>The correct word was <strong>rainbow</strong></p>
+  <button class="play-again">Play Again</button>
+</div>
+    </div>
+    <!-- game result -->
+
+
+    <div class="container">
+      <!-- overlay -->
+      <div class="overlay">
+        
+        
+        <!--  header -->
+        <div class="header">
+              <h1 class="heading">H<span>angman </h1>
+              <h1 class="sub-heading"></span>W<span>ord</span> G<span>uessing</span> G<span>ame</span></h1>
+              <img src="./assets/image6.png" alt="image" class="image" />
+        </div>
+        <!--  header -->
+
+        
+        <!-- game-box div -->
+        <div class="game-box">
+          <ul class="word-display">
+          
+          </ul>
+
+          <div class="hint-text">
+            Hint:
+            <strong
+              >Lorem ipsum dolor sit amet consectetur adipis</strong
+            >
+          </div>
+
+          <div class="guessing-text">
+            Incorrect guesses :
+            <strong>0 / 6</strong>
+          </div>
+
+          <div class="keyboard">
+            <!-- <button>A</button><button>B</button><button>C</button><button>D</button>
+            <button>E</button><button>F</button><button>G</button><button>H</button>
+            <button>I</button><button>J</button><button>K</button><button>L</button>
+            <button>M</button><button>N</button><button>O</button><button>P</button>
+            <button>Q</button><button>R</button><button>S</button><button>T</button>
+            <button>U</button><button>V</button><button>W</button><button>X</button>
+            <button>Y</button><button>Z</button> -->
+          </div>
+        </div>
+        <!-- game-box div -->
+      </div>
+      <!-- overlay -->
+    </div>
+    <!--   container -->
+   
+  </body>
+</html>
